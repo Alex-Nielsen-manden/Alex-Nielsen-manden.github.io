@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tool
-permalink: /Tool/
+permalink: /tool/
 ---
 
 # Tool
