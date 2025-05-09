@@ -8,11 +8,11 @@ permalink: /tool/
 Selecting courses can be like navigating a jungle, especially the electives. For this reason, we now introduce a tool that can help you with:
 - Filtering courses to only see your specific learning interests by using the legend.
 - Navigating between courses based on their evaluation score and the amount of D&I students attending the course, which may act as an indicator to how relevant the course is.
-- Inspecting other valueable course data by clicking the course dots.
+- Inspecting other valuable course data by clicking the course dots.
 
 <small>Hint: *Click the reset button ![reset](/Data%20load/reset.png) in the upper right corner to reset the navigation.*</small>
 
-<iframe src="/Data load/Evaluation_plot.html" style="width: 1000px; height: 1000px; border: none;"></iframe>
+<iframe src="/Data load/Evaluation_plot.html" style="width: 1000px; height: 950px; border: none;"></iframe>
 
 ## Secondary tool
 Selecting semi-elective courses can be a challenge too. To help the process, this tool only displays those.
