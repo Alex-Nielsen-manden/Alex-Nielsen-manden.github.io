@@ -20,7 +20,7 @@ Selecting semi-elective courses can be a challenge too. To help the process, thi
 
 ### Disclaimer
 - Only courses that have been passed by D&I Msc. students in the period 2020-2024 are included.
-- The data related to any datapoint is taken from the course passed the latest by D&I Msc. students.
+- The data related to any datapoint is taken from the course passed the latest by a D&I Msc. student.
 - The evaluation score is the mean value of the evaluation data: 1.1, 1.2, 1.3, 1.4, 1.5, obtained from the DTU course base.
-- If a course fits within multiple learning categories, the legend filter only applies the filter based on the first learning category.
-- All courses that are only passed by <=5 D&I students are anonymized data and has been assigned 5.0 as the value in order to calculate the percentage of D&I students in a course. This means that it is likely that courses with few students have a higher percentage of D&I than in reality.
+- If a course fits within multiple learning categories, the legend only applies the filter based on the first learning category.
+- All courses that are only passed by <=5 D&I students are anonymized data. In order to calculate the percentage of D&I students in a course, the number of D&I students have been set to 5.0 in these cases. This means that it is likely that courses with few students and <=5 D&I students have a higher percentage of D&I than in reality.
