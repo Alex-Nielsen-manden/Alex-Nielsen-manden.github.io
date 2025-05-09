@@ -10,13 +10,13 @@ Selecting courses can be like navigating a jungle, especially the electives. For
 - Navigate between courses based on their evaluation score and the amount of D&I students attending the course, which may act as an indicator to how relevant the course is.
 - Inspect other valueable course data by clicking the course dots.
 
-<iframe src="/Data load/Evaluation_plot.html" style="width: 1120px; height: 800px; border: none;"></iframe>
-<small>Hint: *Click the reset button ![reset](/Data%20load/reset.png) in the upper right corner to reset the navigation.*</small>
+<small><small>Hint: *Click the reset button ![reset](/Data%20load/reset.png) in the upper right corner to reset the navigation.*</small></small>
+
+<iframe src="/Data load/Evaluation_plot.html" style="width: 1150px; height: 800px; border: none;"></iframe>
 
 ## Secondary tool
 Selecting semi-elective courses can be a challenge too. To help the process, this tool only displays those.
 <iframe src="/Data load/Semi-Elective_Evaluation_plot.html" style="width: 1150px; height: 800; border: none;"></iframe>
-<small>Hint: *Click the reset button ![reset](/Data%20load/reset.png) in the upper right corner to reset the navigation.*</small>
 
 #### Disclaimer
 - Only courses that have been passed by D&I Msc. students in the period 2020-2024 are included.
