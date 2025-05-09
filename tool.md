@@ -10,7 +10,7 @@ This is the Tool page.
 
 ### Evaluations
 
-<iframe src="/path/to/your-file.html" style="width: 100%; height: 600px; border: none;"></iframe>
+<iframe src="/path/to/your-file.html" style="width: 1000px%; height: 600px; border: none;"></iframe>
 
 
 #### Disclaimer
