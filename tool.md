@@ -16,7 +16,7 @@ Selecting courses can be like navigating a jungle, especially the electives. For
 
 ## Secondary tool
 Selecting semi-elective courses can be a challenge too. To help the process, this tool only displays those.
-<iframe src="/Data load/Semi-Elective_Evaluation_plot.html" style="width: 1000px; height: 900px; border: none;"></iframe>
+<iframe src="/Data load/Semi-Elective_Evaluation_plot.html" style="width: 1000px; height: 950px; border: none;"></iframe>
 
 ### Disclaimer
 - Only courses that have been passed by D&I Msc. students in the period 2020-2024 are included.
