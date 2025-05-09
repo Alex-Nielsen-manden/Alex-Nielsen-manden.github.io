@@ -10,12 +10,12 @@ Selecting courses can be like navigating a jungle, especially the electives. For
 - Navigate between courses based on their evaluation score and the amount of D&I students attending the course, which may act as an indicator to how relevant the course is.
 - Inspect other valueable course data by clicking the course dots.
 
-<iframe src="/Data load/Evaluation_plot.html" style="width: 1100px; height: 900px; border: none;"></iframe>
-Hint: *Click the reset button ![reset](/Data%20load/reset.png) in the upper right corner to reset the navigation.*
+<iframe src="/Data load/Evaluation_plot.html" style="width: 1100px; height: 800px; border: none;"></iframe>
+<small>Hint: *Click the reset button ![reset](/Data%20load/reset.png) in the upper right corner to reset the navigation.*</small>
 
 ## Semi-Elective Course Selection Tool
 Here is a tool that only includes the semi-elective courses.
-<iframe src="/Data load/Semi-Elective_Evaluation_plot.html" style="width: 1200px; height: 1000px; border: none;"></iframe>
+<iframe src="/Data load/Semi-Elective_Evaluation_plot.html" style="width: 1150px; height: 9000px; border: none;"></iframe>
 
 
 #### Disclaimer
