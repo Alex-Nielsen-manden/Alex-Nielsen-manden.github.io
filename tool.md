@@ -10,7 +10,7 @@ This is the Tool page.
 
 ### Evaluations
 
-<iframe src="/Data load/Evaluation_plot.html" style="width: 1000px; height: 100%; border: none;"></iframe>
+<iframe src="/Data load/Evaluation_plot.html" style="width: 1200px; height: 800px; border: none;"></iframe>
 
 
 #### Disclaimer
