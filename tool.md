@@ -24,3 +24,43 @@ Selecting semi-elective courses can be a challenge too. To help the process, thi
 - The evaluation score is the mean value of the evaluation data: 1.1, 1.2, 1.3, 1.4, 1.5, obtained from the DTU course base.
 - Multiple categories may apply to a course, but in the name of simplicity, only one category has been assigned per course.
 - All courses that are only passed by <=5 D&I students are anonymized data. In order to calculate the percentage of D&I students in a course, the number of D&I students have been set to 5.0 in these cases. This means that it is likely that courses with few students and <=5 D&I students have a higher percentage of D&I than in reality.
+
+Want to read more about the trends of Design & Innovation students? Click the narrative button below, you can also click the home button to take you back to the landing page.
+
+<div style="display: flex; justify-content: center; gap: 3rem; margin-top: 2rem;">
+  <a href="/" style="
+    background-color: #15717F;
+    color: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+  ">
+    Home
+  </a>
+
+  <a href="/narrative/" style="
+    background-color: #15836D;
+    color: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+  ">
+    Narrative
+  </a>
+</div>

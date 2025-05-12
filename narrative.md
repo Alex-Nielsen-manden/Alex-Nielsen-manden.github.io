@@ -73,26 +73,7 @@ One illustrative example is *Holistic Design* course number 42090, a course that
 
 This dramatic reduction could suggest that the current curriculum aligns well with students’ interests, as there appears to be little incentive to look beyond the program-specific offerings
 
-Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you by clicking the button below.
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
-  <a href="/tool/" style="
-    background-color: #15836D;
-    color: white;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 0px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.2s ease;
-  ">
-    Tool
-  </a>
-</div>
+Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you by clicking the button below - or press the Home button to get back to the introdcution page.
 
 
 <div style="display: flex; justify-content: center; gap: 3rem; margin-top: 2rem;">
