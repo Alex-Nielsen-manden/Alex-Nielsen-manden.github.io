@@ -14,46 +14,57 @@ Just for fun, let’s explore how average grades have evolved over the past five
 
 Overall, the trend appears fairly stable, with only a slight downward slope—nothing too dramatic. However, there is a noticeable spike in grades during the fall semester of 2020, which directly followed the first COVID-19 lockdown. Interestingly, the exam period that semester coincided with Denmark’s second lockdown. This may have led to more lenient grading by examiners or, perhaps more plausibly, a decline in exam quality due to the sudden transition to remote assessments.
 
-This however is a look at all courses including mandatory courses. Since the students has no say, so to speak regarding those, let's try to make the same plot only looking at elective courses. 
+That chart includes all courses, both mandatory and elective. Since students don’t have much choice in mandatory courses, let’s isolate the elective courses to see if the trend changes:
 
 <img src="/Data load/average_grade_semester_electives.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
-Here, we see a more noticeable downward trend and generally lower grades—suggesting that D&I students may not perform as well in their elective courses compared to core subjects. Let’s take a closer look at what might be driving this pattern.
+Here, we observe a more pronounced downward trend and generally lower grades, suggesting that D&I students tend to perform slightly worse in their electives compared to core subjects. To better understand this, we’ve grouped the electives into ten categories:
 
-To better get an overview of the different courses we have diveded them into 10 different catagories namely
+- *Circularity & Sustainability*
+- *Design for People*
+- *Management & Business*
+- *MedTech*
+- *Manufacturing & Materials*
+- *Product Design*
+- *Smart Products*
+- *Supply Chain*
+- *Systems Engineering*
+- *Technical Competences*
 
-- Circularity & Sustainability
-- Design for People
-- Management & Business
-- MedTech
-- Manufacturing & Materials
-- Product Design
-- Smart Products
-- Supply Chain
-- Systems Engineering
-- Technical Competences
-
-Let’s explore how these categories compare to one another in terms of student performance and course rating.
+Let’s compare these categories in terms of average grades and course evaluations:
 
 <img src="/Data load/elective_grades_evaluation.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
-This plot consists of data from data from the entire dataset and thus represents an average over the years. By a first quick glance we see that the average course rating over all categories are relatively similar, the outliers here are supply chain that scores the lowest and medtech that scores the highest. 
-Since the axis are normalized in terms of course rating and grades the plot would make it easy to see if there is a correlation between high average grades and high scores. Which actually looks like the case with the exeption of Circularity & Sustainability, MedTech, Manufacturing & Materials and Technical Competences which are all rated relatively higher than than the average grade. 
-One very notable issue with the data here is however that the course rating is based on data from all students while the average grade only pulls data from Design & Innovation students.
-This prompts the question of whether those before mentioned categories are amongst the least popular amongst D&I students since their average grade is lower relative to the course rating.
+This plot is based on the full dataset and reflects average values across the years. At first glance, course ratings appear relatively consistent across categories, with a few exceptions: *Supply Chain* stands out with the lowest ratings, while *MedTech* receives the highest.
+
+Because both axes are normalized, this chart also gives insight into the relationship between average grades and student evaluations. In general, higher course ratings seem to correlate with higher grades. However, some categories—such as *Circularity & Sustainability*, *MedTech*, *Manufacturing & Materials*, and *Technical Competences* receive higher than average ratings despite lower average grades from D&I students.
+
+One important caveat: while course ratings are based on feedback from all students, the average grade data only reflects performance by D&I students. This discrepancy raises an interesting question—could these higher-rated but lower-performing categories be less popular among D&I students, leading to a lower average grade?
+
+To explore that, let’s look at the popularity of each category among D&I students
 
 <img src="/Data load/popularity_by_category.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
-By looking at this plot we can see that the category of Techinical competencies which has the lowest average grade amongst D&I student also is relatively 
+From this plot, we can see that *Technical Competences*, which has the lowest average grade among D&I students, is also among the least popular categories. 
+
+Let's take a look at the categories on a yearly basis to see if anything interesting appears there.
 
 
 <img src="/Data load/popularity_by_category_yearly.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
+We immediately notice significant changes in the distribution of categories over the years. Notably, no single year includes all 10 categories, and most strikingly, *Design for People* the most popular category among D&I students—is completely absent from 2024.
 
+This aligns with a major restructuring of the MSc Design and Innovation program that took place in the summer of 2023. Maybe some of the most popular electives has changed status to mandatory or program-specific courses (which we refer to here as semi-electives). 
 
+To test this hypothesis, let’s take a look at the popularity of non-elective courses (mandatory and program-specific) in 2024
+
+<img src="/Data load/popularity_by_category_2024_non_electives.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
+
+The data seems to confirm our suspicion: Design for People remains the most popular category among D&I students—it has simply shifted from being offered as an elective to being part of the core or semi-elective curriculum.
 
 
 Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you.
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
   <a href="/tool/" style="
     background-color: #15836D;
     color: white;
