@@ -33,7 +33,7 @@ Here, we observe a more pronounced downward trend and generally lower grades, su
 
 Let’s compare these categories in terms of average grades and course evaluations:
 
-<img src="/Data load/elective_grades_evaluation.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
+<img src="/Data load/elective_grades_evaluation.png" alt="Time series" style="display: block; width: 1000px; margin-left: 0; margin-right: auto;" />
 
 
 This plot is based on the full dataset and reflects average values across the years. At first glance, course ratings appear relatively consistent across categories, with a few exceptions: *Supply Chain* stands out with the lowest ratings, while *MedTech* receives the highest.
@@ -44,13 +44,13 @@ One important caveat: while course ratings are based on feedback from all studen
 
 To explore that, let’s look at the popularity of each category among D&I students
 
-<img src="/Data load/popularity_by_category.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
+<img src="/Data load/popularity_by_category.png" alt="Time series" style="display: block; width: 1000px; margin-left: 0; margin-right: auto;" />
 
 From this plot, we can see that *Technical Competences*, which has the lowest average grade among D&I students, is also among the least popular categories. 
 
 Let's take a look at the categories on a yearly basis to see if anything interesting appears there.
 
-<img src="/Data load/popularity_by_category_yearly.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
+<img src="/Data load/popularity_by_category_yearly.png" alt="Time series" style="display: block; width: 1000px; margin-left: 0; margin-right: auto;" />
 
 We immediately notice significant changes in the distribution of categories over the years. Notably, no single year includes all 10 categories, and most strikingly, *Design for People* the most popular category among D&I students—is completely absent from 2024.
 
@@ -59,22 +59,61 @@ This aligns with a major restructuring of the MSc Design and Innovation program 
 To test this hypothesis, let’s take a look at the popularity of non-elective courses (mandatory and program-specific) in 2024
 
 
-<img src="/Data load/popularity_by_category_2024_non_electives.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
+<img src="/Data load/popularity_by_category_2024_non_electives.png" alt="Time series" style="display: block; width: 1000px; margin-left: 0; margin-right: auto;" />
 
 The data seems to confirm our suspicion: Design for People remains the most popular category among D&I students—it has simply shifted from being offered as an elective to being part of the core or semi-elective curriculum.
 
 With this knowledge let's take look at the most popular elective courses over the years.
 
-<img src="/Data load/top_10_electives.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
+<img src="/Data load/top_10_electives.png" alt="Time series" style="display: block; width: 1000px; margin-left: 0; margin-right: auto;" />
 
 A clear trend emerges: D&I students have been taking fewer electives over time, with the most dramatic drop occurring between 2023 and 2024. This aligns with the curriculum restructuring, which moved many previously elective courses into the program-specific core.
 
-One illustrative example is *Holistic Design*, a course that consistently ranked among the most popular electives but vanished from the elective list in 2024. That’s because it was reclassified as a mandatory course under the new structure.
+One illustrative example is *Holistic Design* course number 42090, a course that consistently ranked among the most popular electives but vanished from the elective list in 2024. That’s because it was reclassified as a mandatory course under the new structure.
 
 This dramatic reduction could suggest that the current curriculum aligns well with students’ interests, as there appears to be little incentive to look beyond the program-specific offerings
 
 Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you by clicking the button below.
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+  <a href="/tool/" style="
+    background-color: #15836D;
+    color: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+  ">
+    Tool
+  </a>
+</div>
+
+
+<div style="display: flex; justify-content: center; gap: 3rem; margin-top: 2rem;">
+  <a href="/index/" style="
+    background-color: #15717F;
+    color: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+  ">
+    Home
+  </a>
+
   <a href="/tool/" style="
     background-color: #15836D;
     color: white;
