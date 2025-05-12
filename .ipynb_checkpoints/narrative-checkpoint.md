@@ -35,6 +35,7 @@ Let’s compare these categories in terms of average grades and course evaluatio
 
 <img src="/Data load/elective_grades_evaluation.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
+
 This plot is based on the full dataset and reflects average values across the years. At first glance, course ratings appear relatively consistent across categories, with a few exceptions: *Supply Chain* stands out with the lowest ratings, while *MedTech* receives the highest.
 
 Because both axes are normalized, this chart also gives insight into the relationship between average grades and student evaluations. In general, higher course ratings seem to correlate with higher grades. However, some categories—such as *Circularity & Sustainability*, *MedTech*, *Manufacturing & Materials*, and *Technical Competences* receive higher than average ratings despite lower average grades from D&I students.
@@ -49,7 +50,6 @@ From this plot, we can see that *Technical Competences*, which has the lowest av
 
 Let's take a look at the categories on a yearly basis to see if anything interesting appears there.
 
-
 <img src="/Data load/popularity_by_category_yearly.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
 We immediately notice significant changes in the distribution of categories over the years. Notably, no single year includes all 10 categories, and most strikingly, *Design for People* the most popular category among D&I students—is completely absent from 2024.
@@ -58,10 +58,14 @@ This aligns with a major restructuring of the MSc Design and Innovation program 
 
 To test this hypothesis, let’s take a look at the popularity of non-elective courses (mandatory and program-specific) in 2024
 
+
 <img src="/Data load/popularity_by_category_2024_non_electives.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
 The data seems to confirm our suspicion: Design for People remains the most popular category among D&I students—it has simply shifted from being offered as an elective to being part of the core or semi-elective curriculum.
 
+With this knowledge let's take look at the most popular elective courses over the years.
+
+<img src="/Data load/top_10_electives.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
 Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you by clicking the button below.
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
