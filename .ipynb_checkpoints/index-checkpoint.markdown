@@ -6,7 +6,14 @@ layout: default
 </div>
 
 <div style="text-align: center;">
-pick one of the buttons below to head to the diffrent pages.
+Welcome to the final project of group 54. This project aims to uncover trends for students on the MSc Design and Innovation study line at the Technical University of Denmark. This is done by looking at course related data from 2020 to 2024. The original idea behind collecting this data was to build a tool that could help future students choose the right courses based on feedback from their peers—basically to make it easier to navigate the overwhelming number of options in the DTU course catalog. The hope was that such a tool might even encourage students to consider courses they wouldn’t normally come across when browsing the catalog on their own.
+
+As the project developed, the focus shifted toward also spotting patterns in student choices, grades, and course ratings over time. 
+
+So, this project has two main goals: to explore how course preferences and opinions have evolved among past students, and to create a helpful tool for future students to make more informed course decisions. 
+
+Please choose on of the buttons below - choose Narrative if you want to read a bit and choose Tool if you want to be taken directly to our iteractive tool for course selection.
+
 </div>
 
 
