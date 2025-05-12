@@ -35,6 +35,7 @@ Let’s compare these categories in terms of average grades and course evaluatio
 
 <img src="/Data load/elective_grades_evaluation.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
+
 This plot is based on the full dataset and reflects average values across the years. At first glance, course ratings appear relatively consistent across categories, with a few exceptions: *Supply Chain* stands out with the lowest ratings, while *MedTech* receives the highest.
 
 Because both axes are normalized, this chart also gives insight into the relationship between average grades and student evaluations. In general, higher course ratings seem to correlate with higher grades. However, some categories—such as *Circularity & Sustainability*, *MedTech*, *Manufacturing & Materials*, and *Technical Competences* receive higher than average ratings despite lower average grades from D&I students.
@@ -49,7 +50,6 @@ From this plot, we can see that *Technical Competences*, which has the lowest av
 
 Let's take a look at the categories on a yearly basis to see if anything interesting appears there.
 
-
 <img src="/Data load/popularity_by_category_yearly.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
 We immediately notice significant changes in the distribution of categories over the years. Notably, no single year includes all 10 categories, and most strikingly, *Design for People* the most popular category among D&I students—is completely absent from 2024.
@@ -57,6 +57,7 @@ We immediately notice significant changes in the distribution of categories over
 This aligns with a major restructuring of the MSc Design and Innovation program that took place in the summer of 2023. Maybe some of the most popular electives has changed status to mandatory or program-specific courses (which we refer to here as semi-electives). 
 
 To test this hypothesis, let’s take a look at the popularity of non-elective courses (mandatory and program-specific) in 2024
+
 
 <img src="/Data load/popularity_by_category_2024_non_electives.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
