@@ -29,5 +29,5 @@ To better get an overview of the different courses we have diveded them into 10 
 
 To start out with, why don't we look at those categories to see how they compare amongst each other.
 
-
+<img src="/Data load/elective_grades_evaluation.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
