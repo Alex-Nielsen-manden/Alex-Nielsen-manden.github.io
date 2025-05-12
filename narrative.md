@@ -63,7 +63,7 @@ To test this hypothesis, let’s take a look at the popularity of non-elective c
 The data seems to confirm our suspicion: Design for People remains the most popular category among D&I students—it has simply shifted from being offered as an elective to being part of the core or semi-elective curriculum.
 
 
-Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you.
+Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you by clicking the button below.
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
   <a href="/tool/" style="
     background-color: #15836D;
