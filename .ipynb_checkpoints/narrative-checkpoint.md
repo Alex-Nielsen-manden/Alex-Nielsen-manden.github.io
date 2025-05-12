@@ -71,10 +71,10 @@ A clear trend emerges: D&I students have been taking fewer electives over time, 
 
 One illustrative example is *Holistic Design*, a course that consistently ranked among the most popular electives but vanished from the elective list in 2024. That’s because it was reclassified as a mandatory course under the new structure.
 
-In fact, by 2024, only three courses remained as true electives for D&I students. This dramatic reduction could suggest that the current curriculum aligns well with students’ interests, as there appears to be little incentive to look beyond the program-specific offerings
+This dramatic reduction could suggest that the current curriculum aligns well with students’ interests, as there appears to be little incentive to look beyond the program-specific offerings
 
 Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you by clicking the button below.
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
   <a href="/tool/" style="
     background-color: #15836D;
     color: white;
