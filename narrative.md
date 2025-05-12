@@ -67,6 +67,12 @@ With this knowledge let's take look at the most popular elective courses over th
 
 <img src="/Data load/top_10_electives.png" alt="Time series" style="display: block; width: 800px; margin-left: 0; margin-right: auto;" />
 
+A clear trend emerges: D&I students have been taking fewer electives over time, with the most dramatic drop occurring between 2023 and 2024. This aligns with the curriculum restructuring, which moved many previously elective courses into the program-specific core.
+
+One illustrative example is *Holistic Design*, a course that consistently ranked among the most popular electives but vanished from the elective list in 2024. That’s because it was reclassified as a mandatory course under the new structure.
+
+In fact, by 2024, only three courses remained as true electives for D&I students. This dramatic reduction could suggest that the current curriculum aligns well with students’ interests, as there appears to be little incentive to look beyond the program-specific offerings
+
 Has this just made you even more confused regarding what courses to take? Try our course finding tool to help you find the right course for you by clicking the button below.
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
   <a href="/tool/" style="
