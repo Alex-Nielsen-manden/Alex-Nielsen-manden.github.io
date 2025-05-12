@@ -96,7 +96,7 @@ Has this just made you even more confused regarding what courses to take? Try ou
 
 
 <div style="display: flex; justify-content: center; gap: 3rem; margin-top: 2rem;">
-  <a href="" style="
+  <a href="/" style="
     background-color: #15717F;
     color: white;
     width: 150px;
